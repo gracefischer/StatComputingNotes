@@ -1,3 +1,5 @@
+From: https://github.com/lcolladotor/jhustatcomputing/blob/main/posts/01-welcome/index.R
+
 ## -----------------------------------------------------------------------------------------
 #| eval: false
 # install.packages("tidyverse")
