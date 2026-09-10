@@ -10,7 +10,7 @@ high-quality R packages, conducting reproducible data analyses, best practices f
 creating websites for personal or project use" (Torres).
 
 ### Helpful Links 
-https://github.com/lcolladotor/jhustatcomputing/
+https://github.com/lcolladotor/jhustatcomputing/ \
 https://lcolladotor.github.io/jhustatcomputing/schedule.html
 
 ## References
