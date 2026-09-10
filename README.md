@@ -13,5 +13,5 @@ creating websites for personal or project use" (Torres).
 https://github.com/lcolladotor/jhustatcomputing/ \
 https://lcolladotor.github.io/jhustatcomputing/schedule.html
 
-## References
+#### References
 Torres, Leonardo Collado. “01 - WELCOME!” 01 - Welcome! – Statistical Computing (BSPH 140.776), lcolladotor.github.io/jhustatcomputing/posts/01-welcome/. Accessed 10 Sept. 2026. 
