@@ -1,3 +1,5 @@
+Notes taken from: https://github.com/lcolladotor/jhustatcomputing/blob/main/posts/09-tidy-data-and-the-tidyverse/index.R
+
 ## -------------------------------------------------------------------------------------------------------------------------------------------
 library("tidyr")
 relig_income
