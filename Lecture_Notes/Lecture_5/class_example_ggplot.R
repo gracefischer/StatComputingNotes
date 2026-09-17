@@ -3,6 +3,8 @@ library("palmerpenguins")
 
 remotes::install_github("bbc/bbplot")
 
+## Install ThemePark from GitHub
+remotes::install_github("MatthewBJane/theme_park")
 
 ## Now that we are familiar with palmerpenguins let’s make a scatter plot with flipper_length_mm on the x-axis, bill_length_mm on the y-axis, colored by species, and a smoother by adding a linear regression.
 
