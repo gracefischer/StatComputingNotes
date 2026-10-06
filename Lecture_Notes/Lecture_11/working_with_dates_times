@@ -30,11 +30,37 @@ sales <- readRDS(here("data", "sales.RDS"))
 
 
 ## -------------------------------------------------------------------------------------------------------------------------------------------
-# Add your solution here
+## Creating date and date-time objects with dplyr and lubricate 
+library("nycflights13")
+
+## date object example
+flights %>%
+    select(year, month, day)
+
+flights %>%
+    select(year,month, day)
+    mutate(departure = make_date(year, month, day))
+
+## date-time object example 
+flight %>%
+    select(year, month, day, hour, minute)%>%
+    mutate(departure_time = make_datetime(year, month, day, hour, minute))
 
 
 ## -------------------------------------------------------------------------------------------------------------------------------------------
-# Add your solution here
+## Create storm stub
+library(here)
+library(readr)
+storm <- read_csv(here(***)progress = FALSE)
+storm 
+colnames(storm)
+
+storm_stub <- storm |>
+    select (BEGIN_DATE_TIME, EVENT_TYPE, DEATHS_DIRECT)
+    mutate(begin = dmy_hms(BEGIN_DATE_TIME)) |>
+    rename(deaths = DEATH_DIRECT, type = EVENT_TYPE)|>
+    select(begin, type, deaths)
+
 
 
 ## -------------------------------------------------------------------------------------------------------------------------------------------
